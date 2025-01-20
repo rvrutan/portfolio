@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section className="text-center p-40 m-10">
       <img
-        src="../../assets/IMG_1230.JPG"
+        src="portfolio/assets/IMG_1230.JPG"
         alt="Roni"
         className="w-72 h-80 rounded-full mx-auto mb-4"
       />
