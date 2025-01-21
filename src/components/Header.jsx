@@ -5,7 +5,7 @@ export default function Header() {
   
   return (
     <header className="bg-stone-600 p-8">
-      <div className="container mx-auto flex justify-between items-center">
+      <div className="container mx-auto flex justify-between items-center tracking-wider antialiased">
       <Link to="/">
           <h1 className="text-4xl font-bold cursor-pointer ">Roni V. Rutan</h1>
         </Link>        <nav className="flex space-x-4">

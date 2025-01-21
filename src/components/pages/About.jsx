@@ -6,7 +6,7 @@ export default function About() {
         alt="Roni"
         className="w-72 h-80 rounded-full mx-auto mb-4"
       />
-      <p className="text-base font-thin space-y-10 m-10 antialiased tracking-wider">
+      <p className="text-base font-thin space-y-10 m-10 ">
       <h1 className="text-2xl mb-2 ">ABOUT</h1>
         I am Veysel Yalin (Roni), a highly motivated and results-oriented
         individual eager to transition into the dynamic field of software
