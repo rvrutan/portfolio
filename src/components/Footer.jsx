@@ -3,22 +3,22 @@ import { faBluesky, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-ic
 
 export default function Footer() {
   return (
-    <footer className="bg-stone-600 p-4 ">
-      <div className="container mx-auto text-center">
+    <footer className="bg-stone-300 p-4 ">
+      <div className="container mx-auto text-center text-stone-700">
         <p>&copy; 2025 Roni V. Rutan</p>
         <div className="flex justify-center space-x-4">
           {/* GitHub Icon */}
-          <a href="https://github.com/rvrutan" target="_blank" rel="noreferrer" className="hover:text-yellow-500">
+          <a href="https://github.com/rvrutan" target="_blank" rel="noreferrer" className="hover:text-yellow-700">
             <FontAwesomeIcon icon={faGithub} size="2x" />
           </a>
 
           {/* LinkedIn Icon */}
-          <a href="https://www.linkedin.com/in/ronirutan/" target="_blank" rel="noreferrer" className="hover:text-yellow-500">
+          <a href="https://www.linkedin.com/in/ronirutan/" target="_blank" rel="noreferrer" className="hover:text-yellow-700">
             <FontAwesomeIcon icon={faLinkedin} size="2x" />
           </a>
 
           {/* Email Icon */}
-          <a href="https://bsky.app/profile/ronirutan.bsky.social" className="hover:text-yellow-500">
+          <a href="https://bsky.app/profile/ronirutan.bsky.social" className="hover:text-yellow-700">
             <FontAwesomeIcon icon={faBluesky} size="2x" />
           </a>
         </div>

@@ -8,7 +8,7 @@ import Resume from './components/pages/Resume';
 
 function App() {
   return (
-    <div className='min-h-screen bg-gray-700 text-gray-300 font-serif antialiased tracking-wider'>
+    <div className='min-h-screen bg-gray-700 text-gray-300 font-thin font-serif antialiased tracking-wider'>
     <Router>
       <div className="flex flex-col min-h-screen">
         <Header />
