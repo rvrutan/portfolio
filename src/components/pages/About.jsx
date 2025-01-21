@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section className="flex flex-col md:flex-row items-center justify-center text-center md:text-left p-10 m-10">
       <img
-        src="src/assets/IMG_1230.JPG"
+        src="assets/IMG_1230.JPG"
         alt="Roni"
         className="w-72 h-80 rounded-full mx-auto mb-4"
       />

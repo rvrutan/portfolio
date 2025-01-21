@@ -8,25 +8,25 @@ export default function Portfolio() {
         {/* Repeat this Project component for each project */}
         <Project
           title="JUMPER"
-          img="src/assets/jumper.png"
+          img="assets/jumper.png"
           liveLink="https://rvrutan.github.io/jumper/"
           repoLink="https://github.com/rvrutan/jumper"
         />
         <Project
           title="Weather Dashboard"
-          img="src/assets/weaather-dashboard demo.png"
+          img="assets/weaather-dashboard demo.png"
           liveLink="https://weather-dashboard-9vqe.onrender.com/"
           repoLink="https://github.com/rvrutan/weather-dashboard"
         />
         <Project
           title="README Generator"
-          img="src/assets/readme-gerator.JPG"
+          img="assets/readme-gerator.JPG"
           liveLink=""
           repoLink="https://github.com/rvrutan/readme-generator"
         />
         <Project
           title="Employee Tracker"
-          img="src/assets/employee-tracker.JPG"
+          img="assets/employee-tracker.JPG"
           liveLink=""
           repoLink="https://github.com/rvrutan/employee-tracker"
         />
