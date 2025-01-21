@@ -9,10 +9,10 @@ export default function Header() {
       <Link to="/">
           <h1 className="text-4xl font-bold cursor-pointer ">Roni V. Rutan</h1>
         </Link>        <nav className="flex space-x-4">
-          <Link to="/" className={location.pathname === "/" ? "text-xl text-yellow-500" : ""}>About Me</Link>
-          <Link to="/portfolio" className={location.pathname === "/portfolio" ? "text-xl text-yellow-500" : ""}>Portfolio</Link>
-          <Link to="/contact" className={location.pathname === "/contact" ? "text-xl text-yellow-500" : ""}>Contact</Link>
-          <Link to="/resume" className={location.pathname === "/resume" ? "text-xl text-yellow-500" : ""}>Resume</Link>
+          <Link to="/" className={location.pathname === "/" ? "text-xl text-yellow-500" : ""}>ABOUT</Link>
+          <Link to="/portfolio" className={location.pathname === "/portfolio" ? "text-xl text-yellow-500" : ""}>PORTFOLIO</Link>
+          <Link to="/contact" className={location.pathname === "/contact" ? "text-xl text-yellow-500" : ""}>CONTACT</Link>
+          <Link to="/resume" className={location.pathname === "/resume" ? "text-xl text-yellow-500" : ""}>RESUME</Link>
         </nav>
       </div>
     </header>

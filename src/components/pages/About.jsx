@@ -1,13 +1,13 @@
 export default function About() {
   return (
-    <section className="text-center p-40 m-10">
+    <section className="flex flex-col md:flex-row items-center justify-center text-center md:text-left p-10 m-10">
       <img
-        src="portfolio/assets/IMG_1230.JPG"
+        src="src/assets/IMG_1230.JPG"
         alt="Roni"
         className="w-72 h-80 rounded-full mx-auto mb-4"
       />
-      <h2 className="text-4xl font-bold mb-2 ">About Me</h2>
-      <p className="text-xl ">
+      <p className="text-base font-thin space-y-10 m-10 antialiased tracking-wider">
+      <h1 className="text-2xl mb-2 ">ABOUT</h1>
         I am Veysel Yalin (Roni), a highly motivated and results-oriented
         individual eager to transition into the dynamic field of software
         development.

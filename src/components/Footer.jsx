@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faBluesky, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export default function Footer() {
@@ -19,8 +19,8 @@ export default function Footer() {
           </a>
 
           {/* Email Icon */}
-          <a href="mailto:rutanroni@gmail.com" className="hover:text-yellow-500">
-            <FontAwesomeIcon icon={faEnvelope} size="2x" />
+          <a href="https://bsky.app/profile/ronirutan.bsky.social" className="hover:text-yellow-500">
+            <FontAwesomeIcon icon={faBluesky} size="2x" />
           </a>
         </div>
       </div>

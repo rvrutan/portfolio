@@ -20,7 +20,7 @@ export default function ContactForm() {
           value={name}
           onChange={(e) => setName(e.target.value)}
           required
-          className="w-full border rounded p-2"
+          className="w-full border rounded p-2 text-gray-900"
         />
       </div>
       <div className="mb-4">
@@ -31,7 +31,7 @@ export default function ContactForm() {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
-          className="w-full border rounded p-2"
+          className="w-full border rounded p-2 text-gray-900"
         />
       </div>
       <div className="mb-4">
@@ -41,7 +41,7 @@ export default function ContactForm() {
           value={message}
           onChange={(e) => setMessage(e.target.value)}
           required
-          className="w-full border rounded p-2"
+          className="w-full border rounded p-2 text-gray-900"
         />
       </div>
       <button type="submit" className="bg-blue-700 text-white px-52 py-2 rounded">
