@@ -4,7 +4,7 @@ This repository contains the code for my personal portfolio website, showcasing 
 
 ## Live Site
 
-The portfolio is live and can be viewed here: ronirutan.com
+The portfolio is live and can be viewed here: www.ronirutan.com
 
 ## Technologies Used
 	•	React: The JavaScript library used to build the user interface.
