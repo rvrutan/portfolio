@@ -13,6 +13,12 @@ export default function Portfolio() {
           repoLink="https://github.com/rvrutan/jumper"
         />
         <Project
+          title="Multi-Dictionary"
+          img="assets/Multi-Dictionary.JPG"
+          liveLink="https://multi-dictionary.netlify.app/"
+          repoLink="https://github.com/rvrutan/dictionary"
+        />
+        <Project
           title="Weather Dashboard"
           img="assets/weaather-dashboard demo.png"
           liveLink="https://weather-dashboard-9vqe.onrender.com/"
