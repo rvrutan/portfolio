@@ -11,7 +11,7 @@ export default function ContactForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="max-w-md mx-auto m-28 md:p-8">
+    <form onSubmit={handleSubmit} className="flex flex-col max-w-md mx-auto m-28 md:p-8">
       <div className="mb-4">
         <label htmlFor="name" className="block text-xl">
           Name:
