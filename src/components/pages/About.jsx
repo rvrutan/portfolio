@@ -2,9 +2,9 @@ export default function About() {
   return (
     <section className="flex flex-col md:flex-row items-center justify-center text-center md:text-left p-6 md:p-20 space-y-6 md:space-y-0 md:space-x-10">
       <img
-        src="assets/IMG_1230.JPG"
+        src="assets/IMG_1231.JPG"
         alt="Roni"
-        className="w-48 h-48 md:w-72 md:h-80 rounded-full mx-auto md:mx-0 mb-4"
+        className="w-40 h-48 md:w-72 md:h-80 rounded-full mx-auto md:mx-0 mb-4"
       />
       <div className="text-base md:text-lg">
         <h1 className="text-2xl md:text-4xl font-bold mb-4">ABOUT</h1>
