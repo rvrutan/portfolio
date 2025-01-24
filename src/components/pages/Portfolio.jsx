@@ -3,7 +3,7 @@ import Project from "../Project";
 export default function Portfolio() {
   return (
     <section className="p-4 md:p-8">
-      <h2 className="text-2xl md:text-3xl text-stone-700 text-center mb-6">My Projects</h2>
+      <h2 className="text-2xl md:text-3xl text-center mb-6">My Projects</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {/* Repeat this Project component for each project */}
         <Project
