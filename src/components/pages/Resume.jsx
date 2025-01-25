@@ -3,7 +3,7 @@ export default function Resume() {
     <section className="text-center m-4 md:m-10 p-10 md:p-20">
       <h2 className="text-3xl md:text-4xl mb-4">Resume</h2>
       <a
-        href="assets/Roni Rutan Resume.pdf"
+        href="assets/Roni Rutan Resume Updated.pdf"
         download
         className="bg-stone-300 text-stone-700 text-lg md:text-xl px-10 py-2 md:px-24 rounded-xl"
       >
