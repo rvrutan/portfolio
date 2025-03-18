@@ -16,7 +16,7 @@ export default function Portfolio() {
     },
     {
       title: "Multi-Dictionary",
-      img: "assets/Multi-Dictionary.JPG",
+      img: "assets/dictionary.JPG",
       liveLink: "https://multi-dictionary.netlify.app/",
       repoLink: "https://github.com/rvrutan/dictionary",
     },
