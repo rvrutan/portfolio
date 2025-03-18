@@ -3,6 +3,12 @@ import Project from "../Project";
 export default function Portfolio() {
   const projects = [
     {
+      title: "Wordle by Roni",
+      img: "assets/Wordle by Roni.JPG",
+      liveLink: "https://main.d31onown0apcrr.amplifyapp.com/",
+      repoLink: "https://github.com/rvrutan/WORDLE",
+    },
+    {
       title: "JUMPER",
       img: "assets/jumper.png",
       liveLink: "https://rvrutan.github.io/jumper/",
@@ -31,12 +37,6 @@ export default function Portfolio() {
       img: "assets/employee-tracker.JPG",
       liveLink: "",
       repoLink: "https://github.com/rvrutan/employee-tracker",
-    },
-    {
-      title: "Vehicle Builder",
-      img: "assets/vehicle builder.JPG",
-      liveLink: "",
-      repoLink: "https://github.com/rvrutan/vehicle-builder",
     },
   ];
 
