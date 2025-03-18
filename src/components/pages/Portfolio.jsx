@@ -4,7 +4,7 @@ export default function Portfolio() {
   const projects = [
     {
       title: "Wordle by Roni",
-      img: "assets/Wordle by Roni.JPG",
+      img: "assets/wordle.JPG",
       liveLink: "https://main.d31onown0apcrr.amplifyapp.com/",
       repoLink: "https://github.com/rvrutan/WORDLE",
     },
